@@ -2,7 +2,17 @@
 
 ADRPredictor is a lightweight, real-time app that predicts the likelihood of serious adverse drug reactions (ADRs) based on patient data and drug characteristics — built using real FAERS pharmacovigilance data and powered by local LLM explanations.
 
-![Screenshot](app/assets/screenshot.png) <!-- Add screenshot later -->
+<p align="center">
+  <img src="app/docs/input-form.png" alt="ADR Predictor Input Form" width="700"/>
+  <br/>
+  <em>🔍 Input form: Fill in patient and drug profile to assess ADR risk</em>
+</p>
+
+<p align="center">
+  <img src="app/docs/output-results.png" alt="ADR Prediction Output" width="700"/>
+  <br/>
+  <em>🧠 Output: Model prediction with LLM-based explanation of risk</em>
+</p>
 
 ## ⚡ Features
 
@@ -97,6 +107,10 @@ adrpredictor/
 │   ├── model/                   # ML model + ollama explanation
 │   ├── utils/                   # Input config, LLM, helpers
 │   └── data/                    # Processed FAERS dataset
+<<<<<<< HEAD
+=======
+│   └── docs/                    # Screenshots for README
+>>>>>>> add-readme-updates
 ├── requirements.txt
 └── README.md
 ```
@@ -113,4 +127,8 @@ AI Cloud Engineer · [LinkedIn](https://www.linkedin.com/in/roreddy/)
 
 ## 🧩 License
 
+<<<<<<< HEAD
 MIT License
+=======
+MIT License
+>>>>>>> add-readme-updates
